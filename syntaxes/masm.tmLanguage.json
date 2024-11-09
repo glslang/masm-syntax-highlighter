@@ -1,0 +1,78 @@
+{
+    "name": "MASM",
+    "scopeName": "source.asm",
+    "patterns": [
+        {
+            "include": "#comments"
+        },
+        {
+            "include": "#constants"
+        },
+        {
+            "include": "#strings"
+        },
+        {
+            "include": "#keywords"
+        },
+        {
+            "include": "#registers"
+        },
+        {
+            "include": "#operators"
+        }
+    ],
+    "repository": {
+        "comments": {
+            "patterns": [
+                {
+                    "match": ";.*$",
+                    "name": "comment.line.semicolon.masm"
+                }
+            ]
+        },
+        "constants": {
+            "patterns": [
+                {
+                    "match": "\\b[0-9]+[bh]?\\b",
+                    "name": "constant.numeric.masm"
+                }
+            ]
+        },
+        "strings": {
+            "patterns": [
+                {
+                    "match": "\"[^\"]*\"",
+                    "name": "string.quoted.double.masm"
+                }
+            ]
+        },
+        "keywords": {
+            "patterns": [
+                {
+                    "match": "(?i)\\b(SEGMENT|ENDS|PROC|ENDP|ASSUME|MODEL|STACK|DATA|CODE|END|DW|DB|DD|EQU|OFFSET|PTR|WORD|BYTE|TYPE|LABEL|MACRO|ENDM|BYTE|WORD|DWORD|QWORD|XMMWORD|YMMWORD|ZMMWORD|PTR)\\b",
+                    "name": "keyword.control.masm"
+                },
+                {
+                    "match": "(?i)\\b(mov|add|sub|mul|div|inc|dec|push|pop|and|or|xor|not|jmp|je|jne|jg|jl|jge|jle|call|ret|int|bt|btr|bts|btc|bittest)\\b",
+                    "name": "keyword.operator.masm"
+                }
+            ]
+        },
+        "registers": {
+            "patterns": [
+                {
+                    "match": "(?i)\\b(ax|bx|cx|dx|si|di|bp|sp|cs|ds|es|ss|gs|ah|al|bh|bl|ch|cl|dh|dl|eax|ebx|ecx|edx|esi|edi|ebp|esp|rax|rbx|rcx|rdx|rsi|rdi|rbp|rsp|rip|r8|r9|r10|r11|r12|r13|r14|r15|xmm0|xmm1|xmm2|xmm3|xmm4|xmm5|xmm6|xmm7|ymm0|ymm1|ymm2|ymm3|ymm4|ymm5|ymm6|ymm7|zmm0|zmm1|zmm2|zmm3|zmm4|zmm5|zmm6|zmm7)\\b",
+                    "name": "variable.language.masm"
+                }
+            ]
+        },
+        "operators": {
+            "patterns": [
+                {
+                    "match": "[+\\-*/,:]",
+                    "name": "keyword.operator.masm"
+                }
+            ]
+        }
+    }
+}

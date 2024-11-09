@@ -1,0 +1,35 @@
+{
+    "name": "MASM Theme",
+    "tokenColors": [
+        {
+            "scope": "keyword.control.masm",
+            "settings": {
+                "foreground": "#CC7832"  // Orange color for control keywords
+            }
+        },
+        {
+            "scope": "keyword.operator.masm",
+            "settings": {
+                "foreground": "#A9B7C6"  // Light gray for operators
+            }
+        },
+        {
+            "scope": "comment.line.semicolon.masm",
+            "settings": {
+                "foreground": "#808080"  // Gray for comments
+            }
+        },
+        {
+            "scope": "string.quoted.double.masm",
+            "settings": {
+                "foreground": "#6A8759"  // Green for strings
+            }
+        },
+        {
+            "scope": "variable.language.masm",
+            "settings": {
+                "foreground": "#9876AA"  // Purple color for registers
+            }
+        }
+    ]
+} 
