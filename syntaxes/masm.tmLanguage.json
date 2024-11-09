@@ -50,11 +50,11 @@
             "patterns": [
                 {
                     "match": "(?i)\\b(SEGMENT|ENDS|PROC|ENDP|ASSUME|MODEL|STACK|DATA|CODE|END|DW|DB|DD|EQU|OFFSET|PTR|WORD|BYTE|TYPE|LABEL|MACRO|ENDM|BYTE|WORD|DWORD|QWORD|XMMWORD|YMMWORD|ZMMWORD|PTR)\\b",
-                    "name": "keyword.control.masm"
+                    "name": "keyword.other.masm"
                 },
                 {
-                    "match": "(?i)\\b(mov|add|sub|mul|div|inc|dec|push|pop|and|or|xor|not|jmp|je|jne|jg|jl|jge|jle|call|ret|int|bt|btr|bts|btc|bittest)\\b",
-                    "name": "keyword.operator.masm"
+                    "match": "(?i)\\b(mov|add|sub|mul|div|inc|dec|push|pop|and|or|xor|not|jmp|je|jne|jg|jl|jge|jle|call|ret|int|bt|btr|bts|btc|bittest|cmp|jnz|jz)\\b",
+                    "name": "keyword.control.masm"
                 }
             ]
         },
