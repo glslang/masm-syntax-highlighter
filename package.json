@@ -1,0 +1,45 @@
+{
+  "publisher": "Gonçalo Carvalho",
+  "repository": "https://github.com/glslang/masm-syntax-highlighter",
+  "name": "masm-syntax-highlighter",
+  "displayName": "masm-syntax-highlighter",
+  "description": "Syntax highlighter for MASM",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "masm",
+        "aliases": [
+          "MASM",
+          "masm"
+        ],
+        "extensions": [
+          ".asm",
+          ".inc"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "masm",
+        "scopeName": "source.asm",
+        "path": "./syntaxes/masm.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "path": "./themes/masm-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
+  }
+}
