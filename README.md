@@ -32,7 +32,7 @@ No known issues at this time.
 
 ## Release Notes
 
-### 0.0.1
+### Version 0.0.1
 
 Initial release with basic MASM syntax highlighting support:
 - File extension support for .asm and .inc files
