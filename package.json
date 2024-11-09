@@ -1,7 +1,7 @@
 {
-  "publisher": "Gonçalo Carvalho",
+  "publisher": "attempto-security",
   "repository": "https://github.com/glslang/masm-syntax-highlighter",
-  "name": "masm-syntax-highlighter",
+  "name": "masm-syntax-highlighter-x64",
   "displayName": "masm-syntax-highlighter",
   "description": "Syntax highlighter for MASM",
   "version": "0.0.1",
