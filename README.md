@@ -10,34 +10,15 @@ A Visual Studio Code extension that provides syntax highlighting for Microsoft M
 
 ## Features
 
-The extension automatically applies syntax highlighting to files with `.asm` and `.inc` extensions. The color scheme includes:
-
-- Orange highlighting for control keywords
-- Light gray for operators
-- Gray for comments (lines starting with semicolon)
-- Green for strings
-- Purple for registers
+The extension automatically applies syntax highlighting to files with `.asm` and `.inc` extensions using default VS Code colors.
 
 ## Requirements
 
-This extension requires Visual Studio Code version 1.95.0 or higher.
+This extension requires Visual Studio Code version 1.93.1 or higher.
 
 ## Extension Settings
 
 This extension does not add any VS Code settings. The syntax highlighting is automatically applied to MASM files.
-
-## Known Issues
-
-No known issues at this time.
-
-## Release Notes
-
-### Version 0.0.1
-
-Initial release with basic MASM syntax highlighting support:
-- File extension support for .asm and .inc files
-- Syntax highlighting for basic MASM elements
-- Custom color theme for MASM code
 
 ---
 
