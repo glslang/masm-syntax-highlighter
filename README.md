@@ -1,5 +1,7 @@
 # MASM Syntax Highlighter
 
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/attempto-security.masm-syntax-highlighter-x64)](https://marketplace.visualstudio.com/items?itemName=attempto-security.masm-syntax-highlighter-x64)
+
 A Visual Studio Code extension that provides syntax highlighting for Microsoft Macro Assembler (MASM) files. This extension enhances the readability of MASM assembly code by applying color highlighting to different syntax elements including:
 
 - Control keywords
